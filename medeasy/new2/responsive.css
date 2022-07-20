@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1000px)
+    {
+    .application 
+    {
+        
+        text-align:center;
+        padding:auto;
+        margin:auto;
+        font-size:large;
+        
+    }
+    .application ul
+    {
+        text-align:left
+    }
+    .application p{
+        text-align:left;
+        
+    }
+    #flexx
+    {
+        margin-top:260px;
+       margin-right:10px;
+       float:left;
+    
+    }
+    .top-footer
+    {
+        height:200px;
+        padding-top:50px;
+    }
+   iframe 
+    {
+        width:400px;
+        margin-left:10px;
+    }
+    #table1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .plc
+    {
+        width:700px;
+        height:130px;
+    
+    
+    }
+    .plc p 
+    {
+        float:left;
+    }
+    .plc bottom{
+        float:right;
+        padding-top:100px;
+    
+    }
+   .button
+    {
+        position:flex;
+    }
+    .necessity
+    {
+        font-size:large;
+    }
+   #overview
+   {
+      font-size:xxlarger;
+      text-align:left;
+   }
+    .ICI
+    {
+        font-size:medium;
+    }
+    #necessity
+    {
+        font-size:large;
+    }
+
+#hello
+{
+    margin-top:100px;
+}
+
+    
+}
+
+@media only screen and (max-width: 1000px)
+    {
+    .application 
+    {
+        
+        text-align:center;
+        padding:auto;
+        margin:auto;
+        font-size:large;
+        
+    }
+    .application ul
+    {
+        text-align:left
+    }
+    .application p{
+        text-align:left;
+        
+    }
+    #flexx
+    {
+        margin-top:260px;
+       margin-right:10px;
+       float:left;
+    
+    }
+    .top-footer
+    {
+        height:200px;
+        padding-top:50px;
+    }
+   iframe 
+    {
+        width:400px;
+        margin-left:1px;
+    }
+    #table1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .plc
+    {
+        width:700px;
+        height:130px;
+    
+    
+    }
+    .plc p 
+    {
+        float:left;
+    }
+    .plc bottom{
+        float:right;
+        padding-top:100px;
+    
+    }
+   .button
+    {
+        position:flex;
+    }
+    .necessity
+    {
+        font-size:large;
+       margin-left:10px;
+    }
+   #overview
+   {
+      font-size:xx-large;
+      text-align:left;
+   }
+    .ICI
+    {
+        font-size:medium;
+       margin-left:10px;
+    }
+    #necessity
+    {
+        font-size:large;
+    }
+
+#hello
+{
+    margin-top:100px;
+}
+
+    
+}
+@media only screen and (max-width: 390px)
+    {
+    .application 
+    {
+        
+        text-align:center;
+        padding:auto;
+        margin:auto;
+        font-size:large;
+        
+    }
+    .application ul
+    {
+        text-align:left
+    }
+    .application p{
+        text-align:left;
+        
+    }
+    #flexx
+    {
+        margin-top:450px;
+        width:280px;
+       height:300px;
+       
+    }
+    
+    .top-footer
+    {  text-align:center;
+        height:200px;
+        padding-top:10px;
+   
+    }
+   iframe 
+    {
+        width:290px;
+        margin-left:1px;
+    }
+    #table1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .plc
+    {
+        width:300px;
+        height:220px;
+       font-size:larger
+    
+    
+    }
+    
+    
+   .button
+    {
+        margin-top:100px;
+    }
+    .necessity
+    {
+        font-size:large;
+    }
+   #overview
+   {
+      font-size:xxlarger;
+      text-align:left;
+   }
+    .ICI
+    {
+        font-size:medium;
+    }
+    #necessity
+    {
+        font-size:large;
+    }
+
+     th 
+       { 
+         
+          display:block;
+            margin:auto;
+          width:100%;
+       }
+       
+    td
+       {
+          display:block;
+          //border: 6px solid;
+          width:100%;
+          
+          
+       }
+
+   tr 
+
+       {
+         width:100%;
+          border:1px solid;
+         
+       }
+      
+     th 
+       { 
+         
+          
+            margin:auto;
+          width:100%;
+          
+          
+         
+       }
+       
+   tr, td
+       {
+          display:block;
+          text-align:right;
+          width:100%;
+          
+            
+          
+       }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+
+
+      
+         
+    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

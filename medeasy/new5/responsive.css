@@ -1,0 +1,222 @@
+/*@media only screen and (max-width: 1000px)
+    {
+    .application 
+    {
+        
+        text-align:center;
+        padding:auto;
+        margin:auto;
+        font-size:large;
+        
+    }
+    .application ul
+    {
+        text-align:left
+    }
+    .application p{
+        text-align:left;
+        
+    }
+    #flexx
+    {
+        margin-top:400px;
+       margin-left:1px;
+       float:left;
+    
+    }
+    .top-footer
+    {
+        height:200px;
+        padding-top:50px;
+    }
+   iframe 
+    {
+        width:400px;
+        margin-left:10px;
+    }
+    #table1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .plc
+    {
+        width:500px;
+        height:130px;
+    
+    
+    }
+    .plc p 
+    {
+        float:left;
+    }
+    .plc bottom{
+        float:right;
+        padding-top:100px;
+    
+    }
+   .button
+    {
+        position:flex;
+    }
+    .necessity
+    {
+        font-size:large;
+    }
+   #overview
+   {
+      font-size:xxlarger;
+      text-align:left;
+   }
+    .ICI
+    {
+        font-size:medium;
+    }
+    #necessity
+    {
+        font-size:large;
+    }
+
+#hello
+{
+    margin-top:100px;
+}
+
+    
+}
+@media (max-width:726px) {
+    body {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size:30%; 
+    }
+
+    .application-form-content h1 {
+        padding-top: 100px;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        line-height: 2.5;
+        font-weight: bold;
+    }
+    
+    .application-form-content p {
+        color: white;
+        width: 75%;
+        font-size: 30px;
+        margin-left: 120px;
+        text-align: justify;
+    }
+    
+    .application-form-content ul {
+        list-style: none;
+        padding-top: 20px;
+        margin-left: 100px;
+    }
+    
+    .application-form-content ul li {
+        line-height: 2;
+    }
+    
+    .application-form-content ul li img {
+        height: 30px;
+        width: 30px;
+        padding: 0 5px;
+    }
+    
+    .application-form {
+        padding: 30px;
+        margin-right: 300px;
+        background: #fff;
+        width: 50%;
+        height: 340px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .top-footer {
+        margin-top: 200px;
+        background-color: black;
+        padding: 30px 60px;
+    }
+    
+    .top-footer p {
+        font-size: 25px;
+        color: #fff;
+        display: inline;
+        font-weight: lighter;
+    }
+    
+    .top-footer button {
+        background-color: #560216;
+        padding: 7px 28px;
+        display: flex;
+        top: 22px;
+        right: 70px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .heading {
+        color: #560216;
+        text-align: center;
+        margin-left: 2%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        padding-left: 30px;
+        font-size: 50px;
+    }
+    .boxx1 {
+        margin-top: 1%;
+        margin-bottom: 5.5%;
+        margin-left: 3%;
+        font-size: 30px;
+    }
+    .main-content .left {
+        position: absolute;
+        left: 30%;
+        top: 10px;
+        width: fit-content;
+    }
+    .left p{
+        font-size: 20px;
+    }
+
+    .right1 {
+        position: relative;
+        background-color: #f6d5dd;
+        padding: 15px;
+        margin-right: 15px;
+        overflow-y: scroll;
+        flex: 4;
+        padding-left: 50px;
+        padding-right: 80px;
+        top: 550px;
+    }
+    .main-content h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-content li, h3 {
+        font-size: 25px;
+    }
+    .main-content .gap  {
+        font-size: 25px;
+        
+    }
+    section.form .wrapper .left,section.form .wrapper .left  {
+        margin-top: 50%;
+    }
+    section.form .wrapper .right img {
+        width: 490px;
+        object-fit: cover;
+        height: 550px;
+        display: none;
+    }
+}*/
+      @media(max-width:760px)
+      {
+        
+      }

@@ -1,0 +1,391 @@
+/*@media only screen and (max-width: 1000px)
+    {
+    .application 
+    {
+        
+        text-align:center;
+        padding:auto;
+        margin:auto;
+        font-size:large;
+        
+    }
+    .application ul
+    {
+        text-align:left
+    }
+    .application p{
+        text-align:left;
+        
+    }
+    #flexx
+    {
+        margin-top:400px;
+       margin-left:1px;
+       float:left;
+    
+    }
+    .top-footer
+    {
+        height:200px;
+        padding-top:50px;
+    }
+   iframe 
+    {
+        width:400px;
+        margin-left:10px;
+    }
+    #table1 
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .plc
+    {
+        width:500px;
+        height:130px;
+    
+    
+    }
+    .plc p 
+    {
+        float:left;
+    }
+    .plc bottom{
+        float:right;
+        padding-top:100px;
+    
+    }
+   .button
+    {
+        position:flex;
+    }
+    .necessity
+    {
+        font-size:large;
+    }
+   #overview
+   {
+      font-size:xxlarger;
+      text-align:left;
+   }
+    .ICI
+    {
+        font-size:medium;
+    }
+    #necessity
+    {
+        font-size:large;
+    }
+
+#hello
+{
+    margin-top:100px;
+}
+
+    
+}*/
+@media(max-width:780px)
+{
+    body {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size:30%; 
+    }
+.application-form-content h1 {
+        padding-top: 100px;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        line-height: 1.5;
+        font-weight: bold;
+       margin-right:2rem;
+    }
+    
+    h3
+    {
+        font-size:1.5rem;
+    }
+    .application-form-content p {
+        color: white;
+        width: 75%;
+        font-size: 40px;
+        margin-left: 120px;
+        text-align:left;
+        font-size:xx-larger;
+        margin-left:3.5rem;
+        margin-top:3rem;
+    }
+    .application-form-content b
+    {
+        font-size:x-large;
+        margin-left:1rem;
+    }
+    application-form-content ul li img {
+        height: 30px;
+        width: 30px;
+        padding: 4px 5px;
+        margin-left:4.5rem;
+    }
+    application-form-content img
+    {
+         margin-left:3.5rem;
+    }
+    .top-footer
+    {
+        padding-top:8rem;
+        padding-left:1rem;
+        padding-right:5rem;
+        height:17rem;
+        margin:auto;
+    }
+    #flexx
+    {   
+    
+        margin-top:2rem;
+        height:18rem;
+        width:23rem;
+        margin-right:15rem;
+        
+    
+
+    }
+    #lastimg img
+    {
+        width:33rem;
+    }
+    li 
+    {
+        font-size:larger;
+    }
+    h1
+    {
+        font-size:xx-large;
+        
+    }
+     iframe
+    {
+    
+        margin-left:3rem;
+       width:26rem; 
+        
+    }
+    .heading
+    {
+        margin-right:2rem;
+        font-size:x-large;
+        
+    }
+    .boxx1 p 
+    {
+        font-size:large;
+        padding-left:-10rem;
+        padding-right:3rem;
+    }
+    .ICI
+    {
+       font-size:large; 
+        
+    }
+    
+  #lefty{
+    width:25rem;
+      margin-right:3rem;
+      height:28rem;
+      top:-2rem
+    position:absulote;
+      
+  }
+    .main-content .left {
+        position: absolute;
+        left: 30%;
+        top: 20px;
+        height:50rem;
+        margin-left:-95px;
+        width: fit-content;
+    }
+    .right1 {
+        position: relative;
+        background-color: #f6d5dd;
+        padding: 15px;
+        margin-right: 15px;
+        overflow-y: scroll;
+        flex: 4;
+        padding-left: 50px;
+        padding-right: 80px;
+        top: 570px;
+        margin-top:-2rem;
+        
+    }
+
+    #contact
+    {
+        margin-top:13rem;
+        height:2rem;
+    }
+    .plc
+    {
+        width:36rem;
+        height:6rem;
+        font-size:xxx-large;
+    }
+    
+        .plc   button 
+    {
+    
+        margin-bottom:2rm;
+        margin-right:-1rem;
+        
+         
+    }
+    p 
+    {
+        font-size:x-large;
+    }
+    .ICI p{
+           font-size:xxlarger;
+    }
+}
+
+
+@media(max-width:480px)
+{
+    body {
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-size:20%; 
+    }
+
+.application-form-content h1 {
+        /* padding-top: 10px; */
+        margin-top: 1rem;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        line-height: 1;
+        font-weight: bold;
+        /* display: inline; */
+        margin-right:2rem;
+        margin-bottom: 2.5rm;
+    }
+    .necessity1 
+    
+    {
+        flex-direction: row;
+    }
+
+
+
+        #over h1{
+        font-size:medium;
+    }
+    .application-form-content p {
+        color: white;
+        width: 75%;
+        font-size: 40px;
+        margin-left: 120px;
+        text-align:left;
+        margin-left:2.5rem;
+        margin-top:2rem;
+        font-size:x-large;
+    }
+    .application-form-content b
+    {
+        font-size:medium;
+        margin-left:1rem;
+    }
+    application-form-content ul li img {
+        height: 30px;
+        width: 30px;
+        padding: 3px 5px;
+        margin-left:2.5rem;
+    }
+     .top-footer
+    {
+        padding-top:8rem;
+        padding-left:1rem;
+        padding-right:5rem;
+        height:20rem;
+      
+        margin:auto;
+    }
+    .right1 {
+        position: relative;
+        background-color: #f6d5dd;
+        padding: 15px;
+        margin-right: 15px;
+        overflow-y: scroll;
+        flex: 4;
+        padding-left: 50px;
+        padding-right: 80px;
+        top: 500px;
+        margin-top:-2rem;
+        font-size:medium;
+    }
+
+    #flexx
+    {
+        margin-top:2rem;
+        height:18rem;
+        width:20rem;
+        margin-right:1rem;
+    
+    }
+     iframe
+    {
+    
+        margin-left:-2rem;
+       width:22rem; 
+        
+    }
+    .ICI
+    {
+       font-size:large; 
+        
+    }
+    
+  #lefty{
+    width:23rem;
+      margin-right:1rem;
+      height:28rem;
+      top:-2rem
+      
+  } 
+    li ,h1,h3 {
+        font-size:xxx-larger;
+    }
+    
+
+    #contact
+    {
+        margin-top:13rem;
+        height:2rem;
+    }
+    .plc
+    {
+        width:16rem;
+        height:14rem;
+        font-size:x-large;
+    }
+    
+        .plc   button 
+    {
+        margin-top:9rem;
+        margin-bottom:2rm;
+        margin-right:4rem;
+        
+         
+    }
+    p 
+    {
+        font-size:x-large;
+    }
+    .ICI p{
+           font-size:xxlarger;
+    }
+    #lastimg img
+    {
+        width:20rem;
+        height:20rem;
+    }
+
+}

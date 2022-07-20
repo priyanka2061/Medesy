@@ -1,0 +1,181 @@
+<footer>
+
+        <div class="footer_upper d-flex">
+            <div class="footer_menu">
+                <h2 class="border-none"><img src="C:\Users\palaksolanki\Desktop\bitty\internship\Medsys_about_contact\finalpages\medsys_png.png" alt="" width="100px"></h2>
+                <ul>
+                    <li><a href="#">Customer Reviews</a></li>
+                    <li><a href="contact.html">Contact US</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Pay US</a></li>	
+                </ul>
+            </div>
+            <div class="footer_menu">
+                <h2>POPULAR SERVICES</h2>
+                <ul>
+                    <li><a href="#">Digital Branding</a></li>
+                    <li><a href="#">Trademark</a></li>
+                    <li><a href="#">Business Setup</a></li>
+                    <li><a href="#">NGO management</a></li>
+                </ul>
+            </div>
+            <div class="footer_menu">
+                <h2>TERMS AND POLICY</h2>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="/policy.html">Privacy Policy</a></li>
+                    <li><a href="/refund.html">Refund Policy</a></li>
+                    <li><a href="#">Confidential Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_menu">
+                <h2>CONNECT WITH US</h2>
+                <ul>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Partner with Us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Suggestions and Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_botton">
+            <h3>OUR OFFICE</h3>
+            <ul>
+                <a target="_blank" href="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage"><i
+                        class="lni lni-facebook"></i></a>
+                <a target="_blank"
+                    href="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk "><i
+                        class="lni lni-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/medsysconsultancy/"><i
+                        class="lni lni-instagram"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/30242565/admin/  "><i
+                        class="lni lni-linkedin"></i></a>
+            </ul>
+            <h5>
+                <i class="lni lni-map-marker"></i>Mumbai
+                <i class="lni lni-map-marker"></i>Navi-Mumbai
+                <i class="lni lni-map-marker"></i>Pune
+                <i class="lni lni-map-marker"></i>Nashik
+                <i class="lni lni-map-marker"></i>Delhi
+                <i class="lni lni-map-marker"></i>Noida
+            </h5>
+            <div class="footer-bottom-last">
+                    <i class="lni lni-thumbs-up"></i>
+                    <h4>ASSURED CUSTOMER <br> SATISFACTION</h4>
+                    <i class="lni lni-lock-alt"></i>
+                    <h4>CLIENT DATA <br> CONFIDENTIALITY</h4>
+                    <i class="lni lni-paypal"></i>
+                    <h4>NO HIDDEN <br> FEE</h4>
+                    <i class="lni lni-comments-reply"></i>
+                    <h4>SECURE ONLINE <br> PAYMENT</h4>
+            </div>
+        </div>
+    </footer>
+    <!-- javascript / -->
+    <script src="/js/index.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        function myPlugin({
+            swiper,
+            extendParams,
+            on
+        }) {
+            extendParams({
+                debugger: false,
+            });
+
+            on('init', () => {
+                if (!swiper.params.debugger) return;
+                console.log('init');
+            });
+            on('click', (swiper, e) => {
+                if (!swiper.params.debugger) return;
+                console.log('click');
+            });
+            on('tap', (swiper, e) => {
+                if (!swiper.params.debugger) return;
+                console.log('tap');
+            });
+            on('doubleTap', (swiper, e) => {
+                if (!swiper.params.debugger) return;
+                console.log('doubleTap');
+            });
+            on('sliderMove', (swiper, e) => {
+                if (!swiper.params.debugger) return;
+                console.log('sliderMove');
+            });
+            on('slideChange', () => {
+                if (!swiper.params.debugger) return;
+                console.log(
+                    'slideChange',
+                    swiper.previousIndex,
+                    '->',
+                    swiper.activeIndex
+                );
+            });
+            on('slideChangeTransitionStart', () => {
+                if (!swiper.params.debugger) return;
+                console.log('slideChangeTransitionStart');
+            });
+            on('slideChangeTransitionEnd', () => {
+                if (!swiper.params.debugger) return;
+                console.log('slideChangeTransitionEnd');
+            });
+            on('transitionStart', () => {
+                if (!swiper.params.debugger) return;
+                console.log('transitionStart');
+            });
+            on('transitionEnd', () => {
+                if (!swiper.params.debugger) return;
+                console.log('transitionEnd');
+            });
+            on('fromEdge', () => {
+                if (!swiper.params.debugger) return;
+                console.log('fromEdge');
+            });
+            on('reachBeginning', () => {
+                if (!swiper.params.debugger) return;
+                console.log('reachBeginning');
+            });
+            on('reachEnd', () => {
+                if (!swiper.params.debugger) return;
+                console.log('reachEnd');
+            });
+        }
+    </script>
+    <script>
+        // Init Swiper
+        var swiper = new Swiper('.swiper', {
+            // Install Plugin To Swiper
+            modules: [myPlugin],
+            loop: true,
+            autoplay:true,
+            // autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // Enable debugger
+            debugger: true,
+        });
+    </script>
+    <!--back to top-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--Javascript-->
+    <script src="js/backtotop.js"></script>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
